@@ -504,3 +504,26 @@ h1 {
         margin-bottom: -10px;
     }
 }
+
+@media (max-width: 323px) {
+    .nav__titulo {
+        font-size: 10px;
+        color: #FFF;
+        margin-left: 2em;
+    }
+
+    .drica {
+        font: 20px Pinyon Script;
+        color: #FFF;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 10px;
+    }
+}
