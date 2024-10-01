@@ -143,7 +143,7 @@ body {
 
     .container > .item {
         min-width: 50%;
-        height: 700px;
+        height: auto;
         scroll-snap-align: start;
     }
 
@@ -306,7 +306,7 @@ body {
 
     .mapa {
         width: 75%;
-        height: 100%;
+        height: 300px
     }
 
     section {
@@ -508,6 +508,4 @@ body {
         margin-left: 10px;
         margin-right: 10px;
     }
-
-
 }
