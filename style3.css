@@ -43,21 +43,6 @@ h1 {
         color: #FFF;
     }    
 
-    .nav__search {
-        background-color: rgb(255, 255, 255);
-        font-size: 20px;
-        margin-left: 6.5em;
-        margin-top: 10px;
-        border: #FFF;
-        border-radius: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nav__search::placeholder {
-        color: rgb(0, 0, 0);
-    }
-
     .nav {
         display: flex;
         align-items: center;
@@ -195,22 +180,6 @@ h1 {
     .drica {
         font: 40px Pinyon Script;
         color: #FFF;
-    }
-
-    .nav__search {
-        background-color: rgb(255, 255, 255);
-        border: #FFF;
-        font-size: 14px;
-        margin-top: 5px;
-        margin-left: 100px;
-        margin-right: 1em;
-        border-radius: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nav__search::placeholder {
-        color: rgb(0, 0, 0);
     }
 
     .nav {
