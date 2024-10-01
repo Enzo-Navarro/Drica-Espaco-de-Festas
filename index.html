@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drica Espaço de Festas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <label>
+                <a class="nav__titulo"><span class="drica">Drica</span> Espaço de Festas</a>
+                <input type="search" id="search" class="nav__search" placeholder="Busque seu tema favorito">
+            </label>
+
+            <nav class="nav">
+                <a class="nav__list" href="about.html">Drica Pegue e Monte</a>
+                <details class="nav__details">
+                    <summary class="nav__summary">
+                        <a class="nav__list">Categorias</a>
+                    </summary>
+
+                    <div class="nav__menulist">
+                        <a href="#">Infantil</a>
+                        <a href="#">15 Anos</a href="#">
+                        <a href="#">Brinquedos</a href="#">
+                        <a href="#">Mais Vendidos</a href="#">
+                    </div>
+                </details>
+
+                <a href="#" class="nav__list">Ofertas</a>
+                <a href="#contact" class="nav__list">Cotato</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="hero">
+                    <h2>Bem-vindo ao Drica Espaço de Festas</h2>
+                    <p>O local perfeito para a sua festa!</p>
+                    <video controls class="videoloc">
+                        <source src="Assets/video de como chegar no salão.mp4" type="video/mp4">
+                        <source src="Assets/video de como chegar no salão.ogg" type="video/ogg">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14706.41222019368!2d-42.05146356124649!3d-22.854170895352738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9705b4e2e231dd%3A0x52f595de5330a5af!2sDrica%20Espa%C3%A7o%20De%20Festas!5e0!3m2!1spt-BR!2sbr!4v1725316878234!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+                </div>
+            </section>
+
+            <h3 class="tamanho">FESTA INFANTIL DE 7 METROS</h3>
+            <div class="container">
+                <img class="item" src="./Assets/Safari do Mickey 7 metros.jpeg" alt="Safari do Mickey 7 metros">
+                <img class="item" src="./Assets/Jurassic Park 7 metros.jpeg" alt="Jurassic Park 7 metros">
+            </div>
+
+            <h4 class="tamanho">FESTA INFANTIL DE 4 METROS</h4>
+            <div class="container">
+                <img class="item" src="./Assets/Branca de Neve.jpeg" alt="Branca de Neve 4 metros">
+                <img class="item" src="./Assets/Jurassic Park.jpeg" alt="Jurassic Park 4 metros">
+                <img class="item" src="./Assets/coisa de criança.jpeg" alt="coisa de criança 4 metros">
+                <img class="item" src="./Assets/Magali.jpeg" alt="Magali 4 metros">
+                <img class="item" src="./Assets/Sereia.jpeg" alt="Sereia Ariel 4 metros">
+                <img class="item" src="./Assets/PjMasks.jpeg" alt="PjMasks">
+            </div>
+
+            <div class="container"></div>
+
+            <section class="contato" id="contact">
+                <h5>Contato</h5>
+                <p>Telefone: +55 22 99885-3828</p>
+                <a href="https://www.instagram.com/dricaespacodefestas_/" target="_blank" class="contato__link">Se quiser veja mais fotos aqui</a>
+                <p>Clique no botão abaixo para enviar uma mensagem diretamente para nós no WhatsApp com o celular:</p>
+
+                <a href="https://wa.me/5522998853828?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações%20sobre%20seu%20serviço." class="whatsapp-button" target="_blank">
+                    Enviar Mensagem no WhatsApp
+                </a>
+                <p>Clique no botão abaixo para enviar uma mensagem diretamente para nós no WhatsApp Web com o computador:</p>
+                <a href="https://web.whatsapp.com/send?phone=5522998853828&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seu%20servi%C3%A7o." class="whatsapp-button" target="_blank">
+                    Enviar Mensagem no WhatsApp Web
+                </a>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Drica Espaço de Festas. Todos os direitos reservados.</p>
+        </footer>
+
+        <script>
+            // Força o scroll do mouse a funcionar
+            window.addEventListener('wheel', function(e) {
+                if (e.deltaY !== 0) {
+                    window.scrollBy(0, e.deltaY); // Scroll vertical
+                }
+            });
+        </script>        
+    </body>
+</html>
